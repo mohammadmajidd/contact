@@ -7,7 +7,6 @@ import PersonIcon from '@mui/icons-material/Person';
 import EmailIcon from '@mui/icons-material/Email';
 import BusinessIcon from '@mui/icons-material/Business';
 import {Add, LocalPhone} from "@mui/icons-material";
-import {useState} from "react";
 const style = {
     position: 'absolute',
     top: '50%',
@@ -23,7 +22,6 @@ const idGenerator = () => {
     return Math.random() * 1000
 }
 export default function ModalForm({state, setState, openModalForm, setOpenModalForm, newContact, setNewContact}) {
-    const [mood,setMood]=useState('Update')
     const handleOpen = () => setOpenModalForm(true);
     const handleClose = () => setOpenModalForm(false);
     const handleAddNewContact = (e) => {

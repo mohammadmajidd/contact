@@ -18,7 +18,6 @@ const style = {
 
 export default function ConfirmModal({
                                          deleteItem,
-                                         setDeleteItem,
                                          openConfirmModal,
                                          setOpenConfirmModal,
                                          state,

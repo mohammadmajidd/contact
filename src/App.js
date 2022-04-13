@@ -40,7 +40,6 @@ const App = () => {
 };
 const Drawer = () => (
     <>
-        {/*<ItemList/>*/}
         <SideBar/>
         <Outlet/>
     </>
