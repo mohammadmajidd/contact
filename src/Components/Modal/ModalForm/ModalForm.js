@@ -26,7 +26,6 @@ export default function ModalForm({state, setState, openModalForm, setOpenModalF
     const handleClose = () => setOpenModalForm(false);
     const handleAddNewContact = (e) => {
         e.preventDefault()
-
         if (newContact.id) {
             setState(state.map(item => item.id === newContact.id ? newContact : item))
         } else {
