@@ -21,6 +21,7 @@ const style = {
 const idGenerator = () => {
     return Math.random() * 1000
 }
+
 export default function ModalForm({state, setState, openModalForm, setOpenModalForm, newContact, setNewContact}) {
     const handleOpen = () => setOpenModalForm(true);
     const handleClose = () => setOpenModalForm(false);
